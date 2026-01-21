@@ -1,0 +1,60 @@
+from pydantic import BaseModel
+
+class User(BaseModel): # User(id = id, name = "name", email = "email", age = age)
+    id : int
+    name : str
+    email : str
+    age : int
+
+db_users = [
+    User(id=1, name="Luciano", email="franlumer09@gmail.com", age=20),
+    User(id=2, name="Florencia", email="bflorenciaaraceli@gmail.com", age=20),
+    User(id=3, name="Franco", email="example.example@gmail.com", age=20),
+    User(id=4, name="test", email="tes@gmail.com", age=20),
+    User(id=5, name="Santiago", email="santiago.rodriguez@gmail.com", age=25),
+    User(id=6, name="María", email="maria.gonzalez@hotmail.com", age=32),
+    User(id=7, name="Diego", email="diego.martinez@yahoo.com", age=28),
+    User(id=8, name="Valentina", email="valentina.lopez@gmail.com", age=22),
+    User(id=9, name="Mateo", email="mateo.fernandez@outlook.com", age=35),
+    User(id=10, name="Camila", email="camila.garcia@gmail.com", age=27),
+    User(id=11, name="Nicolás", email="nicolas.perez@hotmail.com", age=30),
+    User(id=12, name="Sofía", email="sofia.sanchez@gmail.com", age=24),
+    User(id=13, name="Joaquín", email="joaquin.romero@yahoo.com", age=29),
+    User(id=14, name="Isabella", email="isabella.torres@gmail.com", age=26),
+    User(id=15, name="Tomás", email="tomas.diaz@outlook.com", age=33),
+    User(id=16, name="Martina", email="martina.ruiz@gmail.com", age=21),
+    User(id=17, name="Benjamín", email="benjamin.morales@hotmail.com", age=31),
+    User(id=18, name="Emma", email="emma.castro@gmail.com", age=23),
+    User(id=19, name="Lucas", email="lucas.vargas@yahoo.com", age=28),
+    User(id=20, name="Mía", email="mia.silva@gmail.com", age=34),
+    User(id=21, name="Agustín", email="agustin.mendez@outlook.com", age=26),
+    User(id=22, name="Catalina", email="catalina.rojas@gmail.com", age=29),
+    User(id=23, name="Thiago", email="thiago.herrera@hotmail.com", age=25),
+    User(id=24, name="Julieta", email="julieta.flores@gmail.com", age=22),
+    User(id=25, name="Emiliano", email="emiliano.ortiz@yahoo.com", age=36),
+    User(id=26, name="Antonella", email="antonella.rios@gmail.com", age=27),
+    User(id=27, name="Bautista", email="bautista.nunez@outlook.com", age=30),
+    User(id=28, name="Renata", email="renata.vega@gmail.com", age=24),
+    User(id=29, name="Lautaro", email="lautaro.molina@hotmail.com", age=32),
+    User(id=30, name="Victoria", email="victoria.jimenez@gmail.com", age=28),
+    User(id=31, name="Facundo", email="facundo.cruz@yahoo.com", age=23),
+    User(id=32, name="Delfina", email="delfina.reyes@gmail.com", age=31),
+    User(id=33, name="Santino", email="santino.gutierrez@outlook.com", age=26),
+    User(id=34, name="Francesca", email="francesca.ramos@gmail.com", age=29),
+    User(id=35, name="Lorenzo", email="lorenzo.luna@hotmail.com", age=35),
+    User(id=36, name="Olivia", email="olivia.campos@gmail.com", age=22),
+    User(id=37, name="Juan Cruz", email="juancruz.medina@yahoo.com", age=27),
+    User(id=38, name="Alma", email="alma.sosa@gmail.com", age=33),
+    User(id=39, name="Matías", email="matias.navarro@outlook.com", age=25),
+    User(id=40, name="Milagros", email="milagros.ponce@gmail.com", age=30),
+    User(id=41, name="Gael", email="gael.dominguez@hotmail.com", age=24),
+    User(id=42, name="Pilar", email="pilar.aguilar@gmail.com", age=28),
+    User(id=43, name="Ian", email="ian.cortes@yahoo.com", age=34),
+    User(id=44, name="Jazmín", email="jazmin.cabrera@gmail.com", age=21),
+    User(id=45, name="Felipe", email="felipe.leon@outlook.com", age=29),
+    User(id=46, name="Clara", email="clara.miranda@gmail.com", age=26),
+    User(id=47, name="Simón", email="simon.bravo@hotmail.com", age=32),
+    User(id=48, name="Luna", email="luna.castillo@gmail.com", age=23),
+    User(id=49, name="Rodrigo", email="rodrigo.vera@yahoo.com", age=31),
+    User(id=50, name="Abril", email="abril.espinoza@gmail.com", age=27)
+]
